@@ -1,0 +1,9 @@
+c:\users\vizardespa\documents\visual studio 2013\Projects\IA-TicTacToe\IA-TicTacToe\bin\Debug\IA-TicTacToe.exe.config
+c:\users\vizardespa\documents\visual studio 2013\Projects\IA-TicTacToe\IA-TicTacToe\bin\Debug\IA-TicTacToe.exe
+c:\users\vizardespa\documents\visual studio 2013\Projects\IA-TicTacToe\IA-TicTacToe\bin\Debug\IA-TicTacToe.pdb
+c:\users\vizardespa\documents\visual studio 2013\Projects\IA-TicTacToe\IA-TicTacToe\obj\Debug\IA-TicTacToe.csprojResolveAssemblyReference.cache
+c:\users\vizardespa\documents\visual studio 2013\Projects\IA-TicTacToe\IA-TicTacToe\obj\Debug\IA_TicTacToe.Gato.resources
+c:\users\vizardespa\documents\visual studio 2013\Projects\IA-TicTacToe\IA-TicTacToe\obj\Debug\IA_TicTacToe.Properties.Resources.resources
+c:\users\vizardespa\documents\visual studio 2013\Projects\IA-TicTacToe\IA-TicTacToe\obj\Debug\IA-TicTacToe.csproj.GenerateResource.Cache
+c:\users\vizardespa\documents\visual studio 2013\Projects\IA-TicTacToe\IA-TicTacToe\obj\Debug\IA-TicTacToe.exe
+c:\users\vizardespa\documents\visual studio 2013\Projects\IA-TicTacToe\IA-TicTacToe\obj\Debug\IA-TicTacToe.pdb
