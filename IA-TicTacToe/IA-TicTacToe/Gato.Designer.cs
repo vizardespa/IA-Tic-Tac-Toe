@@ -39,6 +39,7 @@
             this.btn7 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.lblTurno = new System.Windows.Forms.Label();
+            this.comboBoxAi = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // btn1
@@ -139,11 +140,20 @@
             this.lblTurno.Size = new System.Drawing.Size(0, 13);
             this.lblTurno.TabIndex = 10;
             // 
+            // comboBoxAi
+            // 
+            this.comboBoxAi.FormattingEnabled = true;
+            this.comboBoxAi.Location = new System.Drawing.Point(12, 144);
+            this.comboBoxAi.Name = "comboBoxAi";
+            this.comboBoxAi.Size = new System.Drawing.Size(102, 21);
+            this.comboBoxAi.TabIndex = 12;
+            // 
             // Gato
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(529, 374);
+            this.Controls.Add(this.comboBoxAi);
             this.Controls.Add(this.lblTurno);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btn9);
@@ -176,6 +186,7 @@
         private System.Windows.Forms.Button btn7;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lblTurno;
+        private System.Windows.Forms.ComboBox comboBoxAi;
     }
 }
 

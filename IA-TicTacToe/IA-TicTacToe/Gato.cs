@@ -17,11 +17,16 @@ namespace IA_TicTacToe
             InitializeComponent();
         }
         public string TurnoActual;
-        public int Nivel =1;
         public string[] Botones;
         public int[,] Matrix;
         private void Gato_Load(object sender, EventArgs e)
         {
+            comboBoxAi.Items.Add("Facil");
+            comboBoxAi.Items.Add("Normal");
+            comboBoxAi.Items.Add("Dificil");
+            comboBoxAi.Items.Add("DudeModeEngaged");
+
+
             TurnoActual = "Jugador";
             lblTurno.Text = TurnoActual;
             Matrix = new int[3, 3];
@@ -109,7 +114,7 @@ namespace IA_TicTacToe
             btn7.Enabled = false;
             btn8.Enabled = false;
             btn9.Enabled = false;*/
-            if(Nivel==1)
+            if(comboBoxAi.SelectedItem == "Facil")
             {
                 Random r = new Random();
                 Button btn = this.Controls.Find(Botones[r.Next(0, 9)], true).FirstOrDefault() as Button;
@@ -119,6 +124,72 @@ namespace IA_TicTacToe
                     int l = r.Next(0, 9);
                     btn = this.Controls.Find(Botones[l], true).FirstOrDefault() as Button;
                     if(btn.Text=="")
+                    {
+                        v = false;
+                    }
+                }
+                btn.PerformClick();
+            }
+
+            if (comboBoxAi.SelectedItem == "Normal")
+            {
+
+                List<int> LugarVacio = new List<int>();
+                for (int i = 0; i < 3; i++)
+                {
+                    for (int j = 0; j < 3; j++)
+                    {
+                        if (Matrix[i, j] == 0)
+                        {
+                            if (i == 0 && j == 0)
+                            {
+                                LugarVacio.Add(0);
+                            }
+                            if (i == 0 && j == 1)
+                            {
+                                LugarVacio.Add(1);
+                            }
+                            if (i == 0 && j == 2)
+                            {
+                                LugarVacio.Add(2);
+                            }
+                            if (i == 1 && j == 0)
+                            {
+                                LugarVacio.Add(3);
+                            }
+                            if (i == 1 && j == 1)
+                            {
+                                LugarVacio.Add(4);
+                            }
+                            if (i == 1 && j == 2)
+                            {
+                                LugarVacio.Add(5);
+                            }
+                            if (i == 2 && j == 0)
+                            {
+                                LugarVacio.Add(6);
+                            }
+                            if (i == 2 && j == 1)
+                            {
+                                LugarVacio.Add(7);
+                            }
+                            if (i == 2 && j == 2)
+                            {
+                                LugarVacio.Add(8);
+                            }
+                        }
+                    }
+                }
+
+
+                Random r = new Random();
+                Button btn = this.Controls.Find(Botones[r.Next(0,9)], true).FirstOrDefault() as Button;
+                bool v = true;
+                while (v)
+                {
+                    int l = r.Next(LugarVacio.Count);
+                    btn = this.Controls.Find(Botones[l], true).FirstOrDefault() as Button;
+                    if (btn.Text == "")
                     {
                         v = false;
                     }
