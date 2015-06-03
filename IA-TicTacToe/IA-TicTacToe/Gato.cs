@@ -38,10 +38,6 @@ namespace IA_TicTacToe
                 }
             }
             Botones = new string[9];
-            Botones[0] = btn1.Name;
-            Botones[1] = btn2.Name;
-            Botones[2] = btn3.Name;
-            Botones[3] = btn4.Name;
             Botones[4] = btn5.Name;
             Botones[5] = btn6.Name;
             Botones[6] = btn7.Name;
@@ -51,6 +47,10 @@ namespace IA_TicTacToe
             btn2.Click += Click;
             btn3.Click += Click;
             btn4.Click += Click;
+            Botones[0] = btn1.Name;
+            Botones[1] = btn2.Name;
+            Botones[2] = btn3.Name;
+            Botones[3] = btn4.Name;
             btn5.Click += Click;
             btn6.Click += Click;
             btn7.Click += Click;
@@ -196,6 +196,76 @@ namespace IA_TicTacToe
                 }
                 btn.PerformClick();
             }
+
+
+            if (comboBoxAi.SelectedItem == "Dificil")
+            {
+
+                List<int> LugarVacio = new List<int>();
+                for (int i = 0; i < 3; i++)
+                {
+                    for (int j = 0; j < 3; j++)
+                    {
+                        if (Matrix[i, j] == 0)
+                        {
+                            if (i == 0 && j == 0)
+                            {
+                                LugarVacio.Add(0);
+                            }
+                            if (i == 0 && j == 1)
+                            {
+                                LugarVacio.Add(1);
+                            }
+                            if (i == 0 && j == 2)
+                            {
+                                LugarVacio.Add(2);
+                            }
+                            if (i == 1 && j == 0)
+                            {
+                                LugarVacio.Add(3);
+                            }
+                            if (i == 1 && j == 1)
+                            {
+                                LugarVacio.Add(4);
+                            }
+                            if (i == 1 && j == 2)
+                            {
+                                LugarVacio.Add(5);
+                            }
+                            if (i == 2 && j == 0)
+                            {
+                                LugarVacio.Add(6);
+                            }
+                            if (i == 2 && j == 1)
+                            {
+                                LugarVacio.Add(7);
+                            }
+                            if (i == 2 && j == 2)
+                            {
+                                LugarVacio.Add(8);
+                            }
+                        }
+                    }
+                }
+
+
+                Random r = new Random();
+                Button btn = this.Controls.Find(Botones[r.Next(0, 9)], true).FirstOrDefault() as Button;
+                bool v = true;
+                while (v)
+                {
+                    int l = r.Next(LugarVacio.Count);
+                    btn = this.Controls.Find(Botones[l], true).FirstOrDefault() as Button;
+                    if (btn.Text == "")
+                    {
+                        v = false;
+                    }
+                }
+                btn.PerformClick();
+            }
+
+
+
            /* btn1.Enabled = true;
             btn2.Enabled = true;
             btn3.Enabled = true;
@@ -286,6 +356,11 @@ namespace IA_TicTacToe
                 }
             }
             return res;
+        }
+
+        private void comboBoxAi_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
 
     }

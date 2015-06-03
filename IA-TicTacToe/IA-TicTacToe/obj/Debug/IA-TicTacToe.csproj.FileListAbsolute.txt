@@ -16,3 +16,12 @@ C:\Users\Oscar\Documents\GitHub\IA-Tic-Tac-Toe\IA-TicTacToe\IA-TicTacToe\obj\Deb
 C:\Users\Oscar\Documents\GitHub\IA-Tic-Tac-Toe\IA-TicTacToe\IA-TicTacToe\obj\Debug\IA_TicTacToe.Gato.resources
 C:\Users\Oscar\Documents\GitHub\IA-Tic-Tac-Toe\IA-TicTacToe\IA-TicTacToe\obj\Debug\IA_TicTacToe.Properties.Resources.resources
 C:\Users\Oscar\Documents\GitHub\IA-Tic-Tac-Toe\IA-TicTacToe\IA-TicTacToe\obj\Debug\IA-TicTacToe.csproj.GenerateResource.Cache
+C:\Users\Jorge\Documents\GitHub\IA-Tic-Tac-Toe\IA-TicTacToe\IA-TicTacToe\bin\Debug\IA-TicTacToe.exe.config
+C:\Users\Jorge\Documents\GitHub\IA-Tic-Tac-Toe\IA-TicTacToe\IA-TicTacToe\obj\Debug\IA-TicTacToe.exe
+C:\Users\Jorge\Documents\GitHub\IA-Tic-Tac-Toe\IA-TicTacToe\IA-TicTacToe\obj\Debug\IA-TicTacToe.pdb
+C:\Users\Jorge\Documents\GitHub\IA-Tic-Tac-Toe\IA-TicTacToe\IA-TicTacToe\bin\Debug\IA-TicTacToe.exe
+C:\Users\Jorge\Documents\GitHub\IA-Tic-Tac-Toe\IA-TicTacToe\IA-TicTacToe\bin\Debug\IA-TicTacToe.pdb
+C:\Users\Jorge\Documents\GitHub\IA-Tic-Tac-Toe\IA-TicTacToe\IA-TicTacToe\obj\Debug\IA-TicTacToe.csprojResolveAssemblyReference.cache
+C:\Users\Jorge\Documents\GitHub\IA-Tic-Tac-Toe\IA-TicTacToe\IA-TicTacToe\obj\Debug\IA_TicTacToe.Gato.resources
+C:\Users\Jorge\Documents\GitHub\IA-Tic-Tac-Toe\IA-TicTacToe\IA-TicTacToe\obj\Debug\IA_TicTacToe.Properties.Resources.resources
+C:\Users\Jorge\Documents\GitHub\IA-Tic-Tac-Toe\IA-TicTacToe\IA-TicTacToe\obj\Debug\IA-TicTacToe.csproj.GenerateResource.Cache

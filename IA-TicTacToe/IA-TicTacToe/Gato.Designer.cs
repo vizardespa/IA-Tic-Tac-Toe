@@ -147,6 +147,7 @@
             this.comboBoxAi.Name = "comboBoxAi";
             this.comboBoxAi.Size = new System.Drawing.Size(102, 21);
             this.comboBoxAi.TabIndex = 12;
+            this.comboBoxAi.SelectedIndexChanged += new System.EventHandler(this.comboBoxAi_SelectedIndexChanged);
             // 
             // Gato
             // 
